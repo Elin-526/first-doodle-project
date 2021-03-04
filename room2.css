@@ -167,7 +167,7 @@ canvas{
 }
 
 @media only screen and (max-width: 767px) {
-    body {
-        text-align: center;
-    }
+  h1, h2, p {
+  padding: 0 !important; text-align: center !important;
+  }
 }
