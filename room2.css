@@ -165,3 +165,9 @@ canvas{
   width: device-width ;
   zoom: 1.0 ;
 }
+
+@media only screen and (max-width: 767px) {
+    body {
+        text-align: center;
+    }
+}
