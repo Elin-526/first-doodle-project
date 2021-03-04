@@ -3,7 +3,7 @@
 /* <!-- SubPage_ Text eFfects --> */
 
 body {
- background: url(intropage.svg);
+ background-image: url(intropage.svg), none;
  background-size: 200pc;
  height: 300vh;
 }
