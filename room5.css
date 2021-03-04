@@ -1,7 +1,7 @@
 
 /* Sketch Pad Page */
 body{
-    background-image: room5.svg;
+    background-image: url(room5.svg),none;
     background-size: cover;
     height: 330vh;
 }
