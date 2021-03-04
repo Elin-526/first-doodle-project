@@ -43,4 +43,7 @@ body {
   left:10px;
 }
 
-/* button */
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
