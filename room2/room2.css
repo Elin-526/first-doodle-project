@@ -1,0 +1,163 @@
+
+html{
+  height: 100vh;
+}
+
+/* Background Drawing Setting */
+body{
+    background-image: url(../room2/room2page.svg);
+    background-size: 200pc;
+    height: 300vh;
+}
+
+.logo{
+  font-size: 20pt;
+  position: absolute;
+  color:rgb(255, 255, 255);
+  margin-left: 50px;
+  white-space: nowrap;
+}
+
+.what,
+.cloth,
+.expression,
+.sketchpad{
+    height: 80vh;
+    box-sizing: border-box;
+    margin-left: 50px;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.whatparagraph{
+  margin-left: 40px;
+  margin-top:500px;
+  margin-right: 70px;
+  font-size: 14pt;
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* white-space: nowrap; */
+  font-weight:bold;
+  font-display:inherit;
+  letter-spacing: 1pt;
+  word-spacing: 1.5pt;
+  line-height: 1.5;
+  text-indent: 70px;
+  max-width: 860px;
+}
+.whatparagraph1 p{
+  margin-left: 40px;
+  /* margin-top:500px; */
+  margin-right: 70px;
+  font-size: 14pt;
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* white-space: nowrap; */
+  font-weight:bold;
+  font-display:inherit;
+  letter-spacing: 1pt;
+  word-spacing: 1.5pt;
+  line-height: 1.5;
+  /* text-indent: 70px; */
+  max-width: 860px;
+}
+
+.what h1,
+.cloth h1,
+.expression h1,
+.sketchpad h1{
+    margin-left: 5px;
+    font-size: 60pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.what h2,
+.cloth h2,
+.expression h2,
+.sketchpad h2{
+    margin-left: 20px;
+    margin-top: 5px;
+    font-size: 18pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+
+.return_d {
+  color: #000000 !important;
+  text-transform: uppercase;
+  background: #e2c545;
+  padding: 20px;
+  border-radius: 6px;
+  display: inline-block;
+  transition: all 0.3s ease 0s;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+.return_d:hover {
+  color: #faf2e1 !important;
+  border-radius: 50px;
+  border-color: #000000 !important;
+  transition: all 0.3s ease 0s;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  
+}
+
+.example_d {
+    color: #000000 !important;
+    text-transform: uppercase;
+    background: #000000;
+    padding: 20px;
+    border-radius: 6px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+    margin-left: 20px;
+    white-space: nowrap;
+}
+  
+.example_d:hover {
+    color: #ffffff !important;
+    border-radius: 50px;
+    border-color: #000000 !important;
+    transition: all 0.3s ease 0s;
+    margin-left: 20px;
+}
+
+canvas{
+  position:fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  max-height: 100vh;
+  max-width: 100vw;
+}
+/* SubPage_Doodling Room 2*/
+.intro h1{
+    position:fixed;
+    text-align: center;
+    font-size: 80pt;
+    margin-left: 30px;
+    margin-top: auto;
+    font-family: Khula;
+    text-transform: uppercase;
+}
+

@@ -1,0 +1,109 @@
+
+/* Sketch Pad Page */
+body{
+    background-image: url(../room3/room5.svg);
+    background-size: cover;
+    height: 330vh;
+}
+
+.logo{
+    font-size: 20pt;
+    position: absolute;
+    color:rgb(255, 255, 255);
+    /* margin-top: 30px; */
+    margin-left: 50px;
+}
+
+
+.room4 h1{
+    height: 80vh;
+    box-sizing: border-box;
+    margin-left: 50px;
+    /* margin-top: 100px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    font-size: 90pt;
+}
+
+.room4 h2,
+.room4 h3{
+    height: 5vh;
+    box-sizing: border-box;
+    margin-left: 50px;
+    /* margin-top: 100px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    font-size: 25pt;
+    letter-spacing: 1pt;
+    word-spacing: 1.5pt;
+    line-height: 1.5;
+    text-indent: 70px;
+ 
+}
+
+.return_d {
+    color: #000000 !important;
+    text-transform: uppercase;
+    background: #e2c545;
+    padding: 20px;
+    border-radius: 6px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+    margin-left: 20px;
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    font-weight: bold;
+  }
+  
+  .return_d:hover {
+    color: #faf2e1 !important;
+    border-radius: 50px;
+    border-color: #000000 !important;
+    transition: all 0.3s ease 0s;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    
+  }
+.rightside {
+    float:center;
+    margin-left:10px;
+}
+
+/* Button SketchPad Css */
+#sketchpad {
+    padding: fixed;
+    height:1100px;
+    width:1550px;
+    border:1px solid rgb(255, 255, 255);
+    border-radius:10px;
+    position:relative;
+    margin-left:150px;
+    /* margin-top: 250px; */
+    margin-bottom: 10px;
+}
+
+/* clearbutton CSS */
+#clearButton {
+    position: absolute;
+    left: 850px;
+    top:2200px;
+    font-display:inherit;
+    color: #fff;
+    font-size: 30pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding: fixed;
+    -webkit-appearance: none;
+    background-color: #e43434;
+    border: none;
+
+}
