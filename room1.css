@@ -3,8 +3,7 @@
 /* <!-- SubPage_ Text eFfects --> */
 
 body {
- background-image:url(intropage.svg);
-/*  background-image: url(your.svg), none; */
+ background-image:"intropage.svg";
  background-size: 200pc;
  height: 300vh;
 }
