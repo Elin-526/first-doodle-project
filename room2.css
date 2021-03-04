@@ -161,3 +161,7 @@ canvas{
     text-transform: uppercase;
 }
 
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
