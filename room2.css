@@ -8,6 +8,8 @@ body{
     background-image:url(room2page.svg),none;
     background-size: 200pc;
     height: 300vh;
+    width: 94%;
+    margin:3%;
 }
 
 .logo{
