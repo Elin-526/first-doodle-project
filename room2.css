@@ -5,7 +5,7 @@ html{
 
 /* Background Drawing Setting */
 body{
-    background-image: url room2page.svg
+    background-image: room2page.svg;
     background-size: 200pc;
     height: 300vh;
 }
