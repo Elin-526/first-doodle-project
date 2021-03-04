@@ -1,5 +1,5 @@
 body{
-  background-image:room3.svg;
+  background-image:url(room3.svg),none;
   background-size: cover;
   height: 300vmax;
 }
