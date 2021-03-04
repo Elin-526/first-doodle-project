@@ -65,3 +65,32 @@ body{
   margin: 0 6px;
   font-size: 14px;
 }
+
+.return_d {
+    color: #000000 !important;
+    text-transform: uppercase;
+    background: #e2c545;
+    padding: 20px;
+    border-radius: 6px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    font-weight: bold;
+  }
+  
+  .return_d:hover {
+    color: #faf2e1 !important;
+    border-radius: 50px;
+    border-color: #000000 !important;
+    transition: all 0.3s ease 0s;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    
+  }
