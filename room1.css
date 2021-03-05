@@ -6,7 +6,6 @@ body {
  background-image: url(intropage.svg), none;
  background-size: 200pc;
  height: 300vh;
- max-width:640px;
 }
 
 .logo{
