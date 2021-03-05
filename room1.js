@@ -1,6 +1,6 @@
  
 // Text_ Intro
-consoleText(['Welcome to the Room 1', 'Explore your Doodling Skills', 'Made with Love.'], 'text',['black','yellow','white']);
+consoleText(['Welcome to the Room 1', 'Express your Doodling Skills', 'Made with Love.'], 'text',['black','yellow','white']);
 
 function consoleText(words, id, colors) {
 
