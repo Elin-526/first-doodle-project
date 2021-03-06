@@ -1,206 +1,84 @@
-<!DOCTYPE html>
-<html Lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=yes">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="room1.css">
-        <title>Doodling Place</title>
-    </head>
+/* <!-- SubPage_ Text eFfects --> */
 
-<!-- Button _ All the same style -->
-    <body>
-      <div class="logo">
-          <b><a href="../room1_Intro/room1.html" target="_blank">PLANET</a></b>
-        </div>
+body {
+  background-image: url(intropage.svg), none;
+  background-size: 250pc;
+  height: 300vh;
+  width: 94%;
+  margin:3%;
+}
+ 
+.logo{
+  font-size: 25pt;
+  position: absolute;
+  color:rgb(0, 0, 0);
+  margin-left: 250px;
+  white-space: nowrap;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 
-<!-- Section 1 _Room 2What is doodling and link to sketchpad-->
-        <section class="what" id="room">
-            <h1></h1>
-            <p>
-            </p>
-        </section>
-    <style>
-       
-       body{
-            margin:auto;
-     
-/*             background-image:url(intropage.svg);
-            background-size: 200pc;
-            height: 300vh; */
-        }
+a:link {
+  text-decoration: none;
+  color:rgb(0, 0, 0);
+}
 
-        .what,
-        .cloth,
-        .expression,
-        .sketchpad{
-            height: 80vh;
-            box-sizing: border-box;
-            margin-left: 50px;
-            margin-top: 100px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .visit{
-            height: 80vh;
-            box-sizing: border-box;
-            margin-left: 50px;
-            margin-top: 100px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
+a:visited {
+  text-decoration: none;
+  color:rgb(0, 0, 0);
+}
 
-        .what h1,
-        .cloth h1,
-        .expression h1,
-        .sketchpad h1{
-            margin-left: 5px;
-            font-size: 60pt;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-transform: uppercase;
-        }
-        .visit h1{
-            margin-left: 5px;
-            font-size: 30pt;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-transform: uppercase;
-            word-spacing: 5px;
-        }
-        .what h2,
-        .cloth h2,
-        .expression h2,
-        .sketchpad h2{
-            margin-left: 20px;
-            margin-top: 5px;
-            font-size: 18pt;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            position:center;
-        }
-        .visit h2{
-            margin-left: 5px;
-            font-size: 18pt;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-transform: uppercase;
-            word-spacing: 5px;
-            margin-left: 50px;
-        }
-    
-        .example_d {
-            color: #2b2a2a !important;
-            text-transform: uppercase;
-            background: #2b2a2a;
-            padding: 20px;
-            border-radius: 6px;
-            display: inline-block;
-            transition: all 0.3s ease 0s;
-            margin-left: 20px;
-            }
-        .example_d:hover {
-            color: #ffffff !important;
-            border-radius: 50px;
-            border-color: #1d1d1d !important;
-            transition: all 0.3s ease 0s;
-            margin-left: 20px;
-            }
+a:active {
+  text-decoration: underline;
+  color:rgb(255, 255, 255);
+}
+ .hidden {
+   opacity:0;
+ }
 
-            .example_c {
-            color: #2b2a2a !important;
-            text-transform: uppercase;
-            font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-            font-size: 25pt;
-            padding: 20px;
-            border-radius: 6px;
-            display: inline-block;
-            transition: all 0.3s ease 0s;
-            margin-left: 55px;
-            }
+ .what h1{
+  font-size: 30pt;
+}
 
-        .example_c:hover {
-            color: #a1a4ce !important;
-            font-weight: bold;
-            font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-            font-size: 25pt;
-            border-radius: 50px;
-            border-color: #1d1d1d !important;
-            transition: all 0.3s ease 0s;
-            margin-left: 55px;
-            }
-    </style>
+.what h2,
+.cloth h2,
+.expression h2,
+.sketchpad h2{
+    margin-left: 20px;
+    margin-top: 5px;
+    font-size: 18pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+
+ .console-container {
   
-
-<!-- Section 1 _Room 2What is doodling and link to sketchpad-->
-        <section class="what" id="room">
-            <h1>Room 2</h1>
-            <h2>
-            What is Doodling?
-            </h2>
-            <a class="example_d" href="index2.html" target="_blank" rel="nofollow noopener">Enter the room 2</a></div>
-          
-        </section>
-    
-
-<!-- Section 2 Room 3 Cloth-->
-        <section class="cloth" id="room3">
-            <h1>Room 3</h1>
-            <h2>Express yourself</h2>
-            <a class="example_d" href="index3.html" target="_blank" rel="nofollow noopener">Enter the room 3</a></div>
-        </section>
-           
-
-<!-- Section 3 Room 4-->
-        <section class="expression" id="room4">
-            <h1>Room 4</h1>
-            <h2> User Interaction </h2>
-            <a class="example_d" href="index4.html" target="_blank" rel="nofollow noopener">Enter the room 4</a></div>
-                
-                </div>
-        </section>
-            
-<!-- Section 4 Room 5 -->
-        <section class="sketchpad" id="room4">
-            <h1>Room 5</h1>
-               <h2>
-                Draw whatever you want
-               </h2>
-                <!-- <a href="../room3/room5.html" class="button">Enter the Room 5</a> -->
-                <div class="button_cont">
-                <li><a class="example_d" href="index5.html" target="_blank" rel="nofollow noopener">Enter the room 5</a></li>
-            </div>
-        </section>
-
-<!-- Section 4 Room 5 -->
-<section class="sketchpad" id="room4">
-    <h1>Room 6</h1>
-       <h2>
-        Please visit other people website!
-       </h2>
-        <!-- <a href="../room3/room5.html" class="button">Enter the Room 5</a> -->
-        <div class="button_cont">
-        <li><a class="example_d" href="index6.html" target="_blank" rel="nofollow noopener">Enter the room 6</a></li>
-    </div>
-</section>
-<!-- SubPage_ Text eFfects_Welcome -->
-        <div class="console-container">
-            <span id="text"></span>
-            <div class="console-underscore" id="console">&#95;
-            </div>
-        </div>
-
-
-        <script src= "room1.js"></script>
-    </body>
-
-    </html>
-</html>
+     font-size:5em;
+     text-align:center;
+     height:200px;
+     width:600px;
+     display:block;
+     position:absolute;
+     color:white;
+     top:0;
+     bottom:0;
+     left:0;
+     right:0;
+     margin:auto;
+ }
+ 
+ .console-underscore {
+   display:inline-block;
+   position:relative;
+   top:-0.14em;
+   left:10px;
+ }
+ 
+ @viewport {
+   width: device-width ;
+   zoom: 1.0 ;
+ }
