@@ -9,7 +9,7 @@ var touchX,touchY;
 
 //Drawing the dot
 function drawDot(ctx,x,y,size) {
-    r=rand(555); g=rand(90); b=rand(310); a=rand(1005);
+    r=rand(255); g=rand(90); b=rand(310); a=rand(1005);
 
     ctx.fillStyle = "rgba("+r+","+g+","+b+","+(a/205)+")";
 
