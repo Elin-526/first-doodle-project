@@ -8,12 +8,12 @@ document.getElementById('close').onmousedown = function(e) {
 var physics_accuracy  = 3,
     mouse_influence   = 20,
     mouse_cut         = 5,
-    gravity           = 1200,
-    cloth_height      = 30,
-    cloth_width       = 50,
+    gravity           = 100,
+    cloth_height      = 130,
+    cloth_width       = 190,
     start_y           = 20,
-    spacing           = 7,
-    tear_distance     = 60;
+    spacing           = 4,
+    tear_distance     = 70;
   
   
 window.requestAnimFrame =
@@ -121,7 +121,7 @@ Point.prototype.add_force = function (x, y) {
     this.vx += x;
     this.vy += y;
 
-    var round = 400;
+    var round = 700;
     this.vx = ~~(this.vx * round) / round;
     this.vy = ~~(this.vy * round) / round;
 };
@@ -252,8 +252,8 @@ window.onload = function () {
     canvas  = document.getElementById('c');
     ctx     = canvas.getContext('2d');
 
-    canvas.width  = 1280;
-    canvas.height = 1990;
+    canvas.width  = 1080;
+    canvas.height = 1090;
 
     start();
 };
