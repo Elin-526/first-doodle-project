@@ -10,19 +10,11 @@
         <title>Doodling Place</title>
     </head>
 
-<!-- Human Nature -->
-
 <!-- Button _ All the same style -->
-
     <body>
-<!--         <img src="intropage.svg" /> -->
-
-        <nav>
-            <div class="logo">
-                <div class="logo" onclick="href='index.html'"></div>
-              <h1>PLANET</h1>
-            </div>
-        </nav>
+      <div class="logo">
+          <b><a href="../room1_Intro/room1.html" target="_blank">PLANET</a></b>
+        </div>
 
 <!-- Section 1 _Room 2What is doodling and link to sketchpad-->
         <section class="what" id="room">
@@ -52,7 +44,15 @@
             align-items: center;
             justify-content: center;
         }
-
+        .visit{
+            height: 80vh;
+            box-sizing: border-box;
+            margin-left: 50px;
+            margin-top: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
 
         .what h1,
         .cloth h1,
@@ -65,7 +65,15 @@
             justify-content: center;
             text-transform: uppercase;
         }
-
+        .visit h1{
+            margin-left: 5px;
+            font-size: 30pt;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-transform: uppercase;
+            word-spacing: 5px;
+        }
         .what h2,
         .cloth h2,
         .expression h2,
@@ -76,13 +84,23 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            position:center;
         }
-
+        .visit h2{
+            margin-left: 5px;
+            font-size: 18pt;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-transform: uppercase;
+            word-spacing: 5px;
+            margin-left: 50px;
+        }
     
         .example_d {
-            color: #000000 !important;
+            color: #2b2a2a !important;
             text-transform: uppercase;
-            background: #000000;
+            background: #2b2a2a;
             padding: 20px;
             border-radius: 6px;
             display: inline-block;
@@ -92,11 +110,33 @@
         .example_d:hover {
             color: #ffffff !important;
             border-radius: 50px;
-            border-color: #000000 !important;
+            border-color: #1d1d1d !important;
             transition: all 0.3s ease 0s;
             margin-left: 20px;
             }
 
+            .example_c {
+            color: #2b2a2a !important;
+            text-transform: uppercase;
+            font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+            font-size: 25pt;
+            padding: 20px;
+            border-radius: 6px;
+            display: inline-block;
+            transition: all 0.3s ease 0s;
+            margin-left: 55px;
+            }
+
+        .example_c:hover {
+            color: #a1a4ce !important;
+            font-weight: bold;
+            font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+            font-size: 25pt;
+            border-radius: 50px;
+            border-color: #1d1d1d !important;
+            transition: all 0.3s ease 0s;
+            margin-left: 55px;
+            }
     </style>
   
 
@@ -140,7 +180,17 @@
             </div>
         </section>
 
-       
+<!-- Section 4 Room 5 -->
+<section class="sketchpad" id="room4">
+    <h1>Room 6</h1>
+       <h2>
+        Please visit other people website!
+       </h2>
+        <!-- <a href="../room3/room5.html" class="button">Enter the Room 5</a> -->
+        <div class="button_cont">
+        <li><a class="example_d" href="index6.html" target="_blank" rel="nofollow noopener">Enter the room 6</a></li>
+    </div>
+</section>
 <!-- SubPage_ Text eFfects_Welcome -->
         <div class="console-container">
             <span id="text"></span>
