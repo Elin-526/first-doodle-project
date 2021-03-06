@@ -1,16 +1,40 @@
+
 body{
   background-image:url(room3.svg),none;
   background-size: cover;
-  height: 300vmax;
+  height: 200vh;
+  width: 74%;
+  margin:3%;
 }
 
+
 .logo{
-  font-size: 20pt;
+  font-size: 25pt;
   position: absolute;
   color:rgb(255, 255, 255);
-  margin-top: 105px;
+  margin-top: 500px;
   margin-left: 50px;
+  white-space: nowrap;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
+
+a:link {
+  text-decoration: none;
+  color:rgb(0, 0, 0);
+}
+
+a:visited {
+  text-decoration: none;
+  color:rgb(0, 0, 0);
+}
+
+a:active {
+  text-decoration: underline;
+  color:rgb(255, 255, 255);
+}
+
 * {
     margin: 0;
     overflow: hidden;
@@ -21,44 +45,23 @@ body{
     user-select: none;
 }
 
-
-
 #c {
     display: block;
     margin: 20px auto 0;
-    /* margin-top: 200px; */
+    margin-left: 300px;
+
 }
 
 
 #net {
   text-align:center;
   white-space:nowrap;
-  font-size:19px;
-  background:rgba(255, 255, 255, 0.1);
+  background:rgb(0, 0, 0);
   padding:8px 12px;
   border-radius:8px;
   display:block;
   color:rgb(0, 0, 0);
 }
-
-#net > span {
-  color:#000000;
-  /* font-family: Helvetica, Arial, sans-serif; */
-  font-size: 14px;
-  display: block;
-  margin: 0 auto;
-  text-align: center;
-  text-decoration:none;
-}
-
-#new {
-  width: 100%;
-  text-align: center;
-  font-size: 18px;
-  /* font-family: Helvetica; */
-  margin-top: 12px;
-}
-
 
 .bull {
   opacity: 0.3;
@@ -66,36 +69,14 @@ body{
   font-size: 14px;
 }
 
-.return_d {
-    color: #000000 !important;
-    text-transform: uppercase;
-    background: #e2c545;
-    padding: 20px;
-    border-radius: 6px;
-    display: inline-block;
-    transition: all 0.3s ease 0s;
-    margin-left: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    white-space: nowrap;
-    font-weight: bold;
-  }
-  
-  .return_d:hover {
-    color: #faf2e1 !important;
-    border-radius: 50px;
-    border-color: #000000 !important;
-    transition: all 0.3s ease 0s;
-    margin-left: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    white-space: nowrap;
-    
-  }
 
 @viewport {
   width: device-width ;
   zoom: 1.0 ;
+}
+
+@media only screen and (max-width: 767px) {
+  h1, h2, p {
+  padding: 0 !important; text-align: center !important;
+  }
 }
