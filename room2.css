@@ -36,7 +36,7 @@ a:active {
   color:rgb(255, 255, 255);
 }
 
-.what,
+.doodle,
 .cloth,
 .expression,
 .sketchpad{
@@ -90,11 +90,11 @@ a:active {
   justify-content:space-between;
 }
 
-.what h1{
+.doodle h1{
   font-size: 30pt;
 }
 
-.what h2,
+.doodle h2,
 .cloth h2,
 .expression h2,
 .sketchpad h2{
