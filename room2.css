@@ -1,23 +1,39 @@
 
-html{
-  height: 100vh;
-}
+ 
 
 /* Background Drawing Setting */
 body{
     background-image:url(room2page.svg),none;
     background-size: 200pc;
-    height: 300vh;
+    height: 200vh;
     width: 94%;
     margin:3%;
 }
 
 .logo{
-  font-size: 20pt;
+  font-size: 25pt;
   position: absolute;
   color:rgb(255, 255, 255);
   margin-left: 50px;
   white-space: nowrap;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a:link {
+  text-decoration: none;
+  color:rgb(0, 0, 0);
+}
+
+a:visited {
+  text-decoration: none;
+  color:rgb(0, 0, 0);
+}
+
+a:active {
+  text-decoration: underline;
+  color:rgb(255, 255, 255);
 }
 
 .what,
@@ -35,50 +51,47 @@ body{
 
 .whatparagraph{
   margin-left: 40px;
-  margin-top:500px;
-  margin-right: 70px;
+  margin-top:600px;
+  margin-right: 50px;
   font-size: 14pt;
   display: flex;
-  /* align-items: center; */
-  /* justify-content: center; */
-  /* white-space: nowrap; */
   font-weight:bold;
   font-display:inherit;
-  letter-spacing: 1pt;
+  letter-spacing: 0.5pt;
   word-spacing: 1.5pt;
   line-height: 1.5;
-  text-indent: 70px;
+  text-indent: 50px;
   max-width: 860px;
 }
-.whatparagraph1 p{
+.whatparagraph p{
   margin-left: 40px;
-  /* margin-top:500px; */
   margin-right: 70px;
-  font-size: 14pt;
+  font-size: 12pt;
   display: flex;
-  /* align-items: center; */
-  /* justify-content: center; */
-  /* white-space: nowrap; */
   font-weight:bold;
   font-display:inherit;
   letter-spacing: 1pt;
   word-spacing: 1.5pt;
   line-height: 1.5;
-  /* text-indent: 70px; */
   max-width: 860px;
+  justify-content:space-between;
+}
+.paragraph {
+  margin-left: 40px;
+  margin-right: 20px;
+  font-size: 12pt;
+  display: flex;
+  font-weight:bold;
+  font-display:inherit;
+  letter-spacing: 1pt;
+  word-spacing: 1.5pt;
+  line-height: 1.5;
+  max-width: 860px;
+  justify-content:space-between;
 }
 
-.what h1,
-.cloth h1,
-.expression h1,
-.sketchpad h1{
-    margin-left: 5px;
-    font-size: 60pt;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-transform: uppercase;
-    white-space: nowrap;
+.what h1{
+  font-size: 30pt;
 }
 
 .what h2,
@@ -94,40 +107,12 @@ body{
     white-space: nowrap;
 }
 
-
-.return_d {
-  color: #000000 !important;
-  text-transform: uppercase;
-  background: #e2c545;
-  padding: 20px;
-  border-radius: 6px;
-  display: inline-block;
-  transition: all 0.3s ease 0s;
-  margin-left: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  white-space: nowrap;
-  font-weight: bold;
-}
-
-.return_d:hover {
-  color: #faf2e1 !important;
-  border-radius: 50px;
-  border-color: #000000 !important;
-  transition: all 0.3s ease 0s;
-  margin-left: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  white-space: nowrap;
-  
-}
-
 .example_d {
-    color: #000000 !important;
+    color: #161515 !important;
+    font-size:65pt;
+    font-weight: bold;
     text-transform: uppercase;
-    background: #000000;
+    background:none;
     padding: 20px;
     border-radius: 6px;
     display: inline-block;
@@ -138,7 +123,6 @@ body{
   
 .example_d:hover {
     color: #ffffff !important;
-    border-radius: 50px;
     border-color: #000000 !important;
     transition: all 0.3s ease 0s;
     margin-left: 20px;
@@ -152,6 +136,7 @@ canvas{
   max-height: 100vh;
   max-width: 100vw;
 }
+
 /* SubPage_Doodling Room 2*/
 .intro h1{
     position:fixed;
@@ -162,6 +147,7 @@ canvas{
     font-family: Khula;
     text-transform: uppercase;
 }
+
 
 @viewport {
   width: device-width ;
