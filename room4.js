@@ -224,7 +224,7 @@ function setUpCanvas(){
     ctx = canvas.getContext("2d");
     canvas.width = w;
     canvas.height = h;
-    canvas.style.border = "1px solid black";
+    canvas.style.border = "1px solid white";
 }
 
 
