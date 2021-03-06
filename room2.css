@@ -52,6 +52,7 @@ a:active {
 .doodle p{
   margin-left: 30px;
   margin-right: 30px;
+  margin-top: 90px
   font-size: 12pt;
   display: flex;
   font-weight:boldest;
@@ -78,8 +79,8 @@ a:active {
 }
 
 .doodle h1{
-  font-size: 30pt;
-  margin-top: 2000px;
+  font-size: 45pt;
+  margin-top: 200px;
 }
 
 .cloth h2,
