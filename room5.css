@@ -1,77 +1,119 @@
 
 /* Sketch Pad Page */
 body{
-    background-image: url(room5.svg),none;
+    background-image: url(room5new.svg),none;
     background-size: cover;
-    height: 330vh;
+    height: 250vh;
+    width: 94%;
+    margin:3%;
 }
 
 .logo{
-    font-size: 20pt;
+    font-size: 25pt;
     position: absolute;
     color:rgb(255, 255, 255);
-    /* margin-top: 30px; */
-    margin-left: 50px;
-}
+    margin-left: 150px;
+    white-space: nowrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a:link {
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+  }
+  
+  a:active {
+    text-decoration: underline;
+    color:rgb(255, 255, 255);
+  }
 
 
-.room4 h1{
-    height: 80vh;
+.drag h2,
+.drag h3{
+    height: 20vh;
     box-sizing: border-box;
     margin-left: 50px;
-    /* margin-top: 100px; */
     display: flex;
     align-items: center;
     justify-content: center;  
-    font-size: 90pt;
-}
-
-.room4 h2,
-.room4 h3{
-    height: 5vh;
-    box-sizing: border-box;
-    margin-left: 50px;
-    /* margin-top: 100px; */
-    display: flex;
-    align-items: center;
-    justify-content: center;  
-    font-size: 25pt;
+    font-size: 20pt;
     letter-spacing: 1pt;
     word-spacing: 1.5pt;
     line-height: 1.5;
     text-indent: 70px;
  
 }
+.room4 h2{
+    height: 29vh;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    font-size: 17pt;
+    letter-spacing: 1pt;
+    word-spacing: 1.5pt;
+    line-height: 1.5;
+ 
+}
+.what,
+.cloth,
+.expression,
+.sketchpad{
+    height: 80vh;
+    box-sizing: border-box;
+    margin-left: 50px;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-.return_d {
-    color: #000000 !important;
+
+.what h1{
+  font-size: 30pt;
+}
+
+.what h2,
+.cloth h2,
+.expression h2,
+.sketchpad h2{
+    margin-left: 20px;
+    margin-top: 5px;
+    font-size: 18pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+.example_d {
+    color: #272727 !important;
+    font-size:65pt;
+    font-weight: bold;
     text-transform: uppercase;
-    background: #e2c545;
+    background:none;
     padding: 20px;
     border-radius: 6px;
     display: inline-block;
     transition: all 0.3s ease 0s;
     margin-left: 20px;
-    margin-top: 90px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     white-space: nowrap;
-    font-weight: bold;
-  }
+}
   
-  .return_d:hover {
-    color: #faf2e1 !important;
-    border-radius: 50px;
-    border-color: #000000 !important;
+.example_d:hover {
+    color: #ffffff !important;
+    /* border-color: #000000 !important; */
     transition: all 0.3s ease 0s;
     margin-left: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    white-space: nowrap;
-    
-  }
+}
+
 .rightside {
     float:center;
     margin-left:10px;
@@ -79,31 +121,29 @@ body{
 
 /* Button SketchPad Css */
 #sketchpad {
-    padding: fixed;
     height:1100px;
     width:1550px;
     border:1px solid rgb(255, 255, 255);
     border-radius:10px;
     position:relative;
-    margin-left:150px;
-    /* margin-top: 250px; */
+    margin-left:100px;
     margin-bottom: 10px;
+    margin-top: 100px;
 }
 
 /* clearbutton CSS */
 #clearButton {
     position: absolute;
     left: 850px;
-    top:2200px;
-    font-display:inherit;
-    color: #fff;
+    top:500px;
+    color: rgb(20, 19, 19);
     font-size: 30pt;
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
     padding: fixed;
     -webkit-appearance: none;
-    background-color: #e43434;
+    /* background-color: #e43434; */
     border: none;
 
 }
