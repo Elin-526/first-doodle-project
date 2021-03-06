@@ -36,7 +36,6 @@ a:active {
   color:rgb(255, 255, 255);
 }
 
-.doodle,
 .cloth,
 .expression,
 .sketchpad{
@@ -47,6 +46,22 @@ a:active {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.doodle p{
+    height: 80vh;
+    box-sizing: border-box;
+    margin-left: 50px;
+    margin-top: 100px;
+    font-size: 14pt;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    letter-spacing: 0.5pt;
+    word-spacing: 1.5pt;
+    line-height: 1.5;
+    text-indent: 50px;
+    max-width: 1000px;
 }
 
 .whatparagraph{
