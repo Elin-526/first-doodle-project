@@ -3,7 +3,7 @@
 
 /* Background Drawing Setting */
 body{
-    background-image:url(room22.svg),none;
+    background-image:url(room2page.svg),none;
     background-size: 200pc;
     height: 200vh;
     width: 94%;
@@ -36,6 +36,7 @@ a:active {
   color:rgb(255, 255, 255);
 }
 
+.what,
 .cloth,
 .expression,
 .sketchpad{
@@ -48,23 +49,34 @@ a:active {
     justify-content: center;
 }
 
-
-.doodle p{
-  margin-left: 30px;
-  margin-right: 30px;
-  margin-top: 1210px
+.whatparagraph{
+  margin-left: 40px;
+  margin-top:600px;
+  margin-right: 50px;
+  font-size: 14pt;
+  display: flex;
+  font-weight:bold;
+  font-display:inherit;
+  letter-spacing: 0.5pt;
+  word-spacing: 1.5pt;
+  line-height: 1.5;
+  text-indent: 50px;
+  max-width: 860px;
+}
+.whatparagraph p{
+  margin-left: 40px;
+  margin-right: 70px;
   font-size: 12pt;
   display: flex;
-  font-weight:boldest;
+  font-weight:bold;
   font-display:inherit;
   letter-spacing: 1pt;
   word-spacing: 1.5pt;
   line-height: 1.5;
-/*   max-width: 1060px; */
-/*   justify-content:space-between; */
+  max-width: 860px;
+  justify-content:space-between;
 }
-
-.doodle {
+.paragraph {
   margin-left: 40px;
   margin-right: 20px;
   font-size: 12pt;
@@ -74,16 +86,15 @@ a:active {
   letter-spacing: 1pt;
   word-spacing: 1.5pt;
   line-height: 1.5;
-   margin-top: 900px;
-/*   max-width: 860px; */
-/*   justify-content:space-between; */
+  max-width: 860px;
+  justify-content:space-between;
 }
 
-.doodle h1{
-  font-size: 45pt;
-  margin-top: 200px;
+.what h1{
+  font-size: 30pt;
 }
 
+.what h2,
 .cloth h2,
 .expression h2,
 .sketchpad h2{
