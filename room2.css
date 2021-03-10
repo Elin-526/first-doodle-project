@@ -12,13 +12,13 @@ body{
 
 .logo{
   font-size: 25pt;
-  position: absolute;
+/*   position: absolute; */
   color:rgb(255, 255, 255);
   margin-left: 50px;
-  white-space: nowrap;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+/*   white-space: nowrap; */
+/*   list-style-type: none; */
+/*   margin: 0; */
+/*   padding: 0; */
 }
 
 a:link {
